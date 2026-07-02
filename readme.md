@@ -1,3 +1,9 @@
+本项目 fork 自 kakaoxy/insGenerate，修复了以下问题：
+
+原脚本不读取 -i 参数指定的链接文件（文件名被写死为 11-25.txt）
+不识别 instagram.com/用户名/reel/xxx 新版链接格式
+依赖清单与 Python 3.14 不兼容，实际只需安装：yt-dlp、fake-useragent、browser-cookie3
+
 # Instagram 视频批量下载与合并工具
 
 这是一个用于批量下载Instagram视频并将其合并的工具套件，包含三个主要组件：视频下载器、视频合并器和Web界面。
